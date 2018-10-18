@@ -1,6 +1,6 @@
 {
     "name": "lescovex",
-    "version": "1.0.3",
+    "version": "1.0.0",
     "description": "Lescovex media explorer and wallet",
     "main": "main.js",
     "author": "Lescovex",
@@ -18,7 +18,7 @@
         "postinstall": "electron-builder install-app-deps",
         "dist": "electron-builder --publish always",
         "release": "build",
-        "publish": "build --win --mac --linux -p always"
+        "publish": "build --linux -p always"
     },
     "publish": {
         "provider": "github"
@@ -109,14 +109,7 @@
         "appId": "Lescovex",
         "mac": {
             "target": "dmg",
-            "icon": "./lescovex.png",
-            "publish": {
-                "provider": "github",
-                "owner": "mirpuicor",
-                "releaseType": "draft",
-                "publishAutoUpdate": "true",
-                "repo": "TestingAutoUpdates"
-            }
+            "icon": "./lescovex.png"
         },
         "win": {
             "icon": "./lescovex.ico",
@@ -131,14 +124,7 @@
         },
         "linux": {
             "target": "AppImage",
-            "icon": "./lescovex.png",
-            "publish": {
-                "provider": "github",
-                "owner": "mirpuicor",
-                "releaseType": "draft",
-                "publishAutoUpdate": "true",
-                "repo": "TestingAutoUpdates"
-            }
+            "icon": "./lescovex.png"
         },
         "nsis": {
             "oneClick": false,
