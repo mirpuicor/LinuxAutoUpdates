@@ -7,7 +7,7 @@
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mirpuicor/TestingAutoUpdates.git"
+        "url": "https://github.com/mirpuicor/LinuxAutoUpdates.git"
     },
     "scripts": {
         "start": "webpack-dev-server --inline --progress --port 8080",
@@ -123,7 +123,7 @@
                 "owner": "mirpuicor",
                 "releaseType": "draft",
                 "publishAutoUpdate": "true",
-                "repo": "TestingAutoUpdates"
+                "repo": "LinuxAutoUpdates"
             }
         },
         "nsis": {
